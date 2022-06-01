@@ -7,7 +7,7 @@ jobs:
       - image: christiankm01/kilo:latest
     steps:
       - checkout
-      - run: lcc
+      - run: npm
 workflows:
   builds:
     jobs:
